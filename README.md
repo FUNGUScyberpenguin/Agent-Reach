@@ -177,6 +177,12 @@ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去�
 安装完之后，`agent-reach doctor` 一条命令告诉你每个渠道的状态、当前走哪条路。
 </details>
 
+<details>
+<summary>在 Claude Desktop 等聊天应用中使用（MCP Server）</summary>
+
+聊天应用不能执行命令，因此 Agent Reach 提供了一个只读 MCP Server，可读取 YouTube 字幕、Reddit、Twitter/X、GitHub、RSS、网页等。配置方法与工具列表见 [docs/mcp.md](docs/mcp.md)。
+</details>
+
 ---
 
 ## 装好就能用

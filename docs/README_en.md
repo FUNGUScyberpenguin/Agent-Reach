@@ -178,6 +178,14 @@ After the Skill is installed, the Agent will auto-detect whether `agent-reach` C
 > the install command with the new locale and replacing the previously installed skill file.
 </details>
 
+<details>
+<summary>Use from chat apps like Claude Desktop (MCP server)</summary>
+
+Chat apps can't run shell commands, so Agent Reach ships an MCP server with read-only
+tools for YouTube transcripts, Reddit, Twitter/X, GitHub, RSS, web pages and more.
+Setup and the tool list: [docs/mcp.md](mcp.md).
+</details>
+
 ---
 
 ## Works Out of the Box

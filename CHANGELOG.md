@@ -8,6 +8,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### ✨ Features / 新功能
+
+#### 💬 MCP server: read-only platform tools for chat apps
+
+- Chat apps such as Claude Desktop can't run shell commands, so the MCP server
+  only offered `get_status`. It now exposes 22 read-only tools (web, RSS, Exa
+  search, YouTube, Reddit, Twitter/X, GitHub, Bilibili, V2EX, XiaoHongShu,
+  Instagram, Facebook). Each one runs a documented upstream command; see
+  `docs/mcp.md`.
+- Fixed: the MCP server crashed on startup with mcp 2.x, which removed the
+  decorator API. It now supports mcp 1.x and 2.x.
+- Added the `mcp` extra that the server's install hint already referred to.
+
 ### 🐛 Bug Fixes / 修复
 
 #### 🔐 Boss直聘 — 登录态误判（双凭据存储）
